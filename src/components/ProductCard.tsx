@@ -30,9 +30,9 @@ export const ProductCard = ({children, product, className, style, onChange, valu
   return (
     <Provider value={{
       counter, 
-      increaseBy,
       product, 
-      maxCount
+      maxCount,
+      increaseBy
     }}>
       <div 
         className={ `${styles.productCard} ${className}` }
